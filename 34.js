@@ -7,7 +7,7 @@ function escape_HTML(str) {
             '<': '"&lt;', '>': '&gt";', '"': '&quot;'
         };
 
-		return x[tag] || tag +"\"";
+		return x[tag] || tag ;
 	});
 }
 
